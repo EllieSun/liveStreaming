@@ -18,8 +18,7 @@ class SSHomeVIewController: UIViewController {
     private let heightForDraftHeader: Int = 44
     /// titleViewHeight
     private let heightForPinSectionHeader: Int = 30
-    /// headerView Height
-    private var tableHeaderViewHeight: Int = Int(IphoneXSeries ? 260 : 240)
+
     override func viewDidLoad() {
         self.initializeUI()
         self.setup()
@@ -142,7 +141,7 @@ extension SSHomeVIewController {
 // MARK: - JXPagingViewDelegate
 extension SSHomeVIewController: JXPagingViewDelegate {
     func tableHeaderViewHeight(in pagingView: JXPagingView) -> Int {
-        return tableHeaderViewHeight
+        return Int(NavigationBarHeight)
     }
 
     func tableHeaderView(in pagingView: JXPagingView) -> UIView {
