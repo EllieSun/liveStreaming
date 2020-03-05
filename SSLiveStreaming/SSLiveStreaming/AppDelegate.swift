@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //创建window
         self.window = UIWindow(frame: UIScreen.main.bounds)
         //设置window的rootViewController
-        self.window?.rootViewController = ViewController()
+        self.window?.rootViewController = SSTabBarController()
         self.window?.makeKeyAndVisible()
         return true
     }

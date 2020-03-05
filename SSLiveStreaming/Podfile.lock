@@ -1,0 +1,94 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.9.1)
+  - CWLateralSlide (1.6.5)
+  - IQKeyboardManagerSwift (6.5.4)
+  - JXCategoryView (1.4.0)
+  - JXPagingView/Paging (1.2.2)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Moya/RxSwift (13.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - "NSObject+Rx (4.4.1)":
+    - RxSwift (~> 4.3)
+  - ObjectMapper (3.4.2)
+  - Result (4.1.0)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
+  - SnapKit (4.2.0)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+  - Then (2.6.0)
+
+DEPENDENCIES:
+  - AFNetworking (= 3.1.0)
+  - CWLateralSlide (~> 1.6.3)
+  - IQKeyboardManagerSwift
+  - JXCategoryView (= 1.4.0)
+  - JXPagingView/Paging
+  - Moya/RxSwift
+  - "NSObject+Rx"
+  - ObjectMapper (= 3.4.2)
+  - Result (= 4.1.0)
+  - RxCocoa
+  - RxSwift
+  - SnapKit (= 4.2.0)
+  - SQLite.swift (~> 0.12.0)
+  - Then
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Alamofire
+    - CWLateralSlide
+    - IQKeyboardManagerSwift
+    - JXCategoryView
+    - JXPagingView
+    - Moya
+    - "NSObject+Rx"
+    - ObjectMapper
+    - Result
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - SQLite.swift
+    - Then
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  CWLateralSlide: 8939c8dea91a24e40d0793553118cb57cd67f64b
+  IQKeyboardManagerSwift: 2dde0fc70110e8eac7ccce2a46fdbec6a850b414
+  JXCategoryView: 6090707daab3e2c052e4845e98932144c043179f
+  JXPagingView: 538f5d1419bc36f1dbb76ca4510b4d06dd29d973
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  "NSObject+Rx": 9884a92f19b610795c431e10b4e601913b59c9e9
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
+
+PODFILE CHECKSUM: 29e7139f4cb5caf300a741b393eec6f101f6aca5
+
+COCOAPODS: 1.9.0
